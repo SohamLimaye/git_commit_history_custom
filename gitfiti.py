@@ -184,14 +184,23 @@ HEART_SHINY = [
   [0,0,0,4,0,0,0],
 ]
 
+MY_GITFITTI_IMAGE = [
+    [0,0,0,0,0,0,0,0,0,0],
+    [2,1,1,1,2,1,1,1,2,1],
+    [3,1,3,2,3,2,3,1,3,3],
+    [4,1,2,1,1,1,4,1,1,1],
+    [1,4,1,1,1,2,1,2,1,2],
+    [2,1,4,1,2,1,1,1,4,1],
+    [0,0,0,0,0,0,0,0,0,0],
+]
+
 ASCII_TO_NUMBER = {
   '_': 0,
-  '_': 1,
-  '~': 2,
-  '=': 3,
-  '*': 4,
+  '1': 1,
+  '2': 2,
+  '3': 3,
+  '4': 4,
 }
-
 
 def str_to_sprite(content):
     # Break out lines and filter any excess
@@ -239,6 +248,7 @@ IMAGES = {
   'gliders': GLIDERS,
   'heart' : HEART, 
   'heart_shiny' : HEART_SHINY,
+  'my_gitfiti_image': MY_GITFITTI_IMAGE,
 }
 
 SHELLS = {
